@@ -1,0 +1,7 @@
+warning IF will be replaced by CRLF 查了下，windows中的换行符为 CRLF， 而在Linux下的换行符为LF，所以会出现提示。
+
+解决办法：http://stackoverflow.com/questions/1967370/git-replacing-lf-with-crlf
+
+即：（设置换行符转换）
+
+git config core.autocrlf false

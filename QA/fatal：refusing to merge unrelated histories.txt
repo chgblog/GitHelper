@@ -1,0 +1,5 @@
+这时候还是不可以push的，因为提示你，要先pull才可以，git pull origin master 将远程的主分支down下来，正常这句话还可以合并本地内容，但是 ！！fatal：refusing to merge unrelated histories 说是拒绝合并不相关的历史，确实本地是新加的内容还重未和线上连接过。
+
+解决办法：git pull origin master --allow-unrelated-histories 就是告诉系统我允许合并不相关历史的内容。
+
+git push 系统提示 git push --set-upstream origin master  因为是第一次push，所以按它提示的来就好啦。
