@@ -1,7 +1,7 @@
-warning IF will be replaced by CRLF ²éÁËÏÂ£¬windowsÖĞµÄ»»ĞĞ·ûÎª CRLF£¬ ¶øÔÚLinuxÏÂµÄ»»ĞĞ·ûÎªLF£¬ËùÒÔ»á³öÏÖÌáÊ¾¡£
+ï»¿warning IF will be replaced by CRLF æŸ¥äº†ä¸‹ï¼Œwindowsä¸­çš„æ¢è¡Œç¬¦ä¸º CRLFï¼Œ è€Œåœ¨Linuxä¸‹çš„æ¢è¡Œç¬¦ä¸ºLFï¼Œæ‰€ä»¥ä¼šå‡ºç°æç¤ºã€‚
 
-½â¾ö°ì·¨£ºhttp://stackoverflow.com/questions/1967370/git-replacing-lf-with-crlf
+è§£å†³åŠæ³•ï¼šhttp://stackoverflow.com/questions/1967370/git-replacing-lf-with-crlf
 
-¼´£º£¨ÉèÖÃ»»ĞĞ·û×ª»»£©
+å³ï¼šï¼ˆè®¾ç½®æ¢è¡Œç¬¦è½¬æ¢ï¼‰
 
 git config core.autocrlf false

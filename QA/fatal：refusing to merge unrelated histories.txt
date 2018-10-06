@@ -1,5 +1,5 @@
-ÕâÊ±ºò»¹ÊÇ²»¿ÉÒÔpushµÄ£¬ÒòÎªÌáÊ¾Äã£¬ÒªÏÈpull²Å¿ÉÒÔ£¬git pull origin master ½«Ô¶³ÌµÄÖ÷·ÖÖ§downÏÂÀ´£¬Õı³£Õâ¾ä»°»¹¿ÉÒÔºÏ²¢±¾µØÄÚÈİ£¬µ«ÊÇ £¡£¡fatal£ºrefusing to merge unrelated histories ËµÊÇ¾Ü¾øºÏ²¢²»Ïà¹ØµÄÀúÊ·£¬È·Êµ±¾µØÊÇĞÂ¼ÓµÄÄÚÈİ»¹ÖØÎ´ºÍÏßÉÏÁ¬½Ó¹ı¡£
+ï»¿è¿™æ—¶å€™è¿˜æ˜¯ä¸å¯ä»¥pushçš„ï¼Œå› ä¸ºæç¤ºä½ ï¼Œè¦å…ˆpullæ‰å¯ä»¥ï¼Œgit pull origin master å°†è¿œç¨‹çš„ä¸»åˆ†æ”¯downä¸‹æ¥ï¼Œæ­£å¸¸è¿™å¥è¯è¿˜å¯ä»¥åˆå¹¶æœ¬åœ°å†…å®¹ï¼Œä½†æ˜¯ ï¼ï¼fatalï¼šrefusing to merge unrelated histories è¯´æ˜¯æ‹’ç»åˆå¹¶ä¸ç›¸å…³çš„å†å²ï¼Œç¡®å®æœ¬åœ°æ˜¯æ–°åŠ çš„å†…å®¹è¿˜é‡æœªå’Œçº¿ä¸Šè¿æ¥è¿‡ã€‚
 
-½â¾ö°ì·¨£ºgit pull origin master --allow-unrelated-histories ¾ÍÊÇ¸æËßÏµÍ³ÎÒÔÊĞíºÏ²¢²»Ïà¹ØÀúÊ·µÄÄÚÈİ¡£
+è§£å†³åŠæ³•ï¼šgit pull origin master --allow-unrelated-histories å°±æ˜¯å‘Šè¯‰ç³»ç»Ÿæˆ‘å…è®¸åˆå¹¶ä¸ç›¸å…³å†å²çš„å†…å®¹ã€‚
 
-git push ÏµÍ³ÌáÊ¾ git push --set-upstream origin master  ÒòÎªÊÇµÚÒ»´Îpush£¬ËùÒÔ°´ËüÌáÊ¾µÄÀ´¾ÍºÃÀ²¡£
+git push ç³»ç»Ÿæç¤º git push --set-upstream origin master  å› ä¸ºæ˜¯ç¬¬ä¸€æ¬¡pushï¼Œæ‰€ä»¥æŒ‰å®ƒæç¤ºçš„æ¥å°±å¥½å•¦ã€‚
