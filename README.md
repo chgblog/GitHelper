@@ -2,8 +2,8 @@
 git init
 
 设置账号：
-git config --global user.name "chg"
-git config --global user.emila "chg.blog@gmail.com"
+git config --global user.name "用户名"
+git config --global user.emila "邮箱"
 
 添加文件到暂存区：
 git add 文件名
@@ -12,10 +12,10 @@ git add 文件名
 git add .
 
 暂存区撤销文件：
-git reset HEAD -- 1.js
+git reset HEAD -- 文件名
 
 工作区恢复到上一次更改，需要先把暂存区撤销后再执行（注意，只有提交到存储库的文件才有效）：
-git checkout -- 1.js
+git checkout -- 文件名
 
 暂存区提交到存储库：
 git commit -m "备注"
@@ -58,8 +58,8 @@ git commit -m "删除1.js"
 git clone "存储库地址"
 
 连接到远程存储库：
-git remote add origin git@github.com:chgblog/test.git		#因为建了ssh关联，和下面一样
-git remote add origin https://github.com/dayechg/test.git
+git remote add origin git@github.com:chgblog/GitHelper.git		#和下面一样
+git remote add origin https://github.com/chgblog/GitHelper.git
 
 推送本地存储库到远程存储库，并建立远程存储库origin与本地存储库master的连接：
 git push -u origin master
@@ -183,3 +183,5 @@ git bisect reset
 自动测试，脚本返回0为正确，1（非0）为错误：
 git bisect run 脚本/命令/程序
 
+忽略指定文件，忽略的文件不加入版本库：
+建立.gitignore文件，里面的文件不加入版本库，可以使用统配符
