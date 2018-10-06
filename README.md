@@ -61,6 +61,9 @@ git clone "存储库地址"
 git remote add origin git@github.com:chgblog/GitHelper.git		#使用ssh协议链接，配置ssh key后每次输入key的密码
 git remote add origin https://github.com/chgblog/GitHelper.git  #使用https协议链接，每次需要输入账号
 
+更改https协议链接为ssh协议链接：
+git remote set-url origin git@github.com:chgblog/GitHelper.git
+
 推送本地存储库到远程存储库，并建立远程存储库origin与本地存储库master的连接：
 git push -u origin master
 
